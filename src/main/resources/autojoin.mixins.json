@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.fasd.autojoin.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["HandledScreenAccessor"],
+  "injectors": { "defaultRequire": 1 }
+}

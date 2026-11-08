@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "autojoin",
+  "version": "${version}",
+  "name": "AutoJoin",
+  "description": "Spam-joins a full map from the Free For All menu until you get in.",
+  "authors": ["FASD"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.fasd.autojoin.AutoJoinClient"]
+  },
+  "mixins": [
+    { "config": "autojoin.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
